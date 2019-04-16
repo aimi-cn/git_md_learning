@@ -4,6 +4,8 @@
 csdn：https://blog.csdn.net/baidu_31657889/
 github：https://github.com/aimi-cn/
 
+**Github访问速度很慢的原因,遇到GitHub上图片无法加载或者加载速度较慢的解决办法 终极解决方案见第二种方法**
+
 ## 一、第一种方法
 
 1. 由于GitHub是一个国外网站，在国内访问速度如何呢？
@@ -38,33 +40,49 @@ github：https://github.com/aimi-cn/
 
 
 
-## 二、第二种方法
+## 二、第二种方法（强烈推荐！！！！！）
+
+**补充：Github访问速度很慢的原因,遇到GitHub上图片无法加载或者加载速度较慢的解决办法 终极解决方案**
+
+绕过dns解析，在本地直接绑定host，该方法也可加速其他因为CDN被屏蔽导致访问慢的网站。
+
+hosts文件所在目录，C:\Windows\System32\drivers\etc
+
+修改windows里的hosts文件，添加如下内容
+
+```python
+# GitHub Start 
+192.30.253.112 github.com 
+192.30.253.119 gist.github.com 
+151.101.100.133 assets-cdn.github.com 
+151.101.100.133 raw.githubusercontent.com 
+151.101.100.133 gist.githubusercontent.com 
+151.101.100.133 cloud.githubusercontent.com 
+151.101.100.133 camo.githubusercontent.com 
+151.101.100.133 avatars0.githubusercontent.com 
+151.101.100.133 avatars1.githubusercontent.com 
+151.101.100.133 avatars2.githubusercontent.com 
+151.101.100.133 avatars3.githubusercontent.com 
+151.101.100.133 avatars4.githubusercontent.com 
+151.101.100.133 avatars5.githubusercontent.com 
+151.101.100.133 avatars6.githubusercontent.com 
+151.101.100.133 avatars7.githubusercontent.com 
+151.101.100.133 avatars8.githubusercontent.com 
+# GitHub End
+```
+
+保存后重新刷新DNS：
+
+打开cmd
+
+输入**ipconfig /flushdns**
+
+亲测有用，下载速度明显提升
+
+重新打开Github网站，一切正常。
+
+## 三、第三种方法
 
 fan qiang 需要一个国 外的 服务器搭建一个 tizi
 
 具体的自行解决 
-
-
-
-**补充：解决github加载图片不成功的方法 排版混乱，发现是CSS加载不出来**
-
-究其根源是assets-cdn.github.com打不开了。
-解决方法是：
-
-搜索到assets-cdn.github.com的ip地址为：
-
-> 185.199.110.153 [美国 GitHub+Fastly节点]
->
-> 185.199.111.153 [美国 GitHub+Fastly节点]
->
-> 185.199.109.153 [美国 GitHub+Fastly节点]
->
-> 185.199.108.153 [美国 GitHub+Fastly节点]
-
-1. 修改本地的hosts文件
-
-   ![1555376433075](..\data\images\6.png)
-
-2. 保存后重新打开github.com。
-   ok了！
-
