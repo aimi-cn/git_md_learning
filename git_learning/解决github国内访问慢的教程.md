@@ -1,8 +1,8 @@
 # 解决github国内访问慢的问题
 
-> 搜索微信公众号:'AI-ming3526'或者'计算机视觉这件小事' 获取更多人工智能干货
-> csdn：https://blog.csdn.net/baidu_31657889
-> github：https://github.com/aimi-cn
+> 搜索微信公众号:'AI-ming3526'或者'计算机视觉这件小事' 获取更多人工智能干货  
+> csdn：https://blog.csdn.net/baidu_31657889  
+> github：https://github.com/aimi-cn  
 
 **Github访问速度很慢的原因,遇到GitHub上图片无法加载或者加载速度较慢的解决办法 终极解决方案见第二种方法（强烈推荐）**
 
