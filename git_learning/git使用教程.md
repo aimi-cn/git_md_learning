@@ -69,6 +69,11 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 确保你拥有一个GitHub账号后，我们就即将开始远程仓库的学习。
 
+```console
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
 **第三步**：克隆我们的项目
 
 ```
