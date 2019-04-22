@@ -94,4 +94,4 @@ def bubbleSort(alist):
 
 #### 结语
 
-以上是最常见的 Markdown 的语法和格式，如果你还希望深入的学习 Markdown，可以参考这里[Markdown语法](https://www.appinn.com/markdown/)，,希望为您提供舒适的写作体验。
+以上是最常见的 Markdown 的语法和格式，如果你还希望深入的学习 Markdown，可以参考这里[Markdown语法](https://www.appinn.com/markdown/)，希望为您提供舒适的写作体验。
