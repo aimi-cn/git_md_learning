@@ -1,4 +1,4 @@
-# AILearners上传github文件规范
+# 1、AILearners上传github文件规范
 
 ![](../data/images/7.png)
 
@@ -45,4 +45,14 @@ gkj/changan目录：img\nlp\cs224n
 **这个目录根据自己笔记源码的python版本或者使用其他编程语言编写的话重新创建对应的文件夹**
 
 eg：fm目录：src\py2.x\ml\jqxxsz
+
+# 2、命名规范
+
+**blog：文章尽量按照12345开头，这样比较有主次 别人看的话一目了然 代码和文章同步就行**
+
+![](../data/images/8.png)
+
+**图片：按照不同章节不同内容进行这样命名**
+
+![](../data/images/9.png)
 
