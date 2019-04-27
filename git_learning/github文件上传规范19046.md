@@ -60,13 +60,22 @@ eg：fm目录：src\py2.x\ml\jqxxsz
 
 **文章开头尽量添加这样的引用~**
 
-> 搜索微信公众号:‘AI-ming3526’或者’计算机视觉这件小事’ 获取更多机器学习干货  
+> 搜索微信公众号:‘AI-ming3526’或者’计算机视觉这件小事’ 获取更多XXX干货  
 > csdn：https://blog.csdn.net/baidu_31657889/  
 > github：https://github.com/aimi-cn/AILearners  
-> 博客园：https://www.cnblogs.com/aimi-cn  
-> 简书：https://www.jianshu.com/u/bf7751bebfe4  
 
 **文章中可以添加这样的标语~**
 
 本文出现的所有代码，均可在github上下载，不妨来个Star把谢谢~：
-[Github代码地址](https://github.com/aimi-cn/AILearners/blob/master/blog/src/py2.x/ml/2.KNN/)
+[Github代码地址](https://github.com/aimi-cn/AILearners/这篇文章具体代码)
+
+AIMI-CN AI学习交流群【1015286623】![AI~AIMICN](../data/images/group.png)
+
+扫码加群：
+
+![](../data/images/1556097925376.png)
+
+分享技术，乐享生活：XX公众号每周五推送“=====”系列资讯类文章，欢迎您的关注！
+
+![](../data/images/qrcode.jpg)
+
