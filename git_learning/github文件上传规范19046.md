@@ -78,4 +78,3 @@ AIMI-CN AI学习交流群【1015286623】![AI~AIMICN](../data/images/group.png)
 分享技术，乐享生活：XX公众号每周五推送“=====”系列资讯类文章，欢迎您的关注！
 
 ![](../data/images/qrcode.jpg)
-

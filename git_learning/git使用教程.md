@@ -80,17 +80,19 @@ git config --global user.email johndoe@example.com
 git clone git@github.com:aimi-cn/AILearners.git
 ```
 
-第四步：修改文件之后
+**第四步**：修改文件之后
 
 ```
+# 添加修改的所有文件
 git add .
+# 提交自己这次的操作备注
 git commit -m 'what you do'
 推送分支：
 git push -u origin master(首次提交)
 git push origin master（之后使用 去掉-u）
 ```
 
-第五步：
+**第五步**：拉取上游分支(在自己每次上传之前做一次 防止团队其他人修改的代码能被自己拉取到 避免出现提交冲突)
 
 ```
 git pull origin master
